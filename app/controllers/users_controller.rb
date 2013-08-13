@@ -5,6 +5,6 @@ class UsersController < ApplicationController
 	end
 
 	def new
-		# User.new
+		
 	end
 end
