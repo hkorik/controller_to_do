@@ -2,9 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import "bootstrap";
+
 body{
 	color:green;
 }
 h1{
 	font-size:25px;
+}
+input{
+	float:left;
+	clear:both;
 }
