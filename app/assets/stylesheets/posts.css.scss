@@ -1,0 +1,23 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	color:red;
+}
+h1{
+	font-size:30px;
+}
+form{
+	height:200px;
+}
+#input{
+	float:left;
+}
+textarea{
+	float:left;
+	clear:both;
+}
+#button{
+	float:left;
+	clear:both;
+}

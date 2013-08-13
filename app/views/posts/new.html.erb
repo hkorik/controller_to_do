@@ -1,0 +1,10 @@
+<% content_for :title do %>
+ Add a new post
+<% end %>
+<h1>New Posts</h1>
+<form action="/posts" method="post">
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+	<input id="input" type="text" name="name" placeholder="Enter Name">
+	<textarea name="content"></textarea>
+	<input id="button" type="submit" value="Submit a Post">
+</form>
