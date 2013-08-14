@@ -10,7 +10,17 @@ body{
 h1{
 	font-size:25px;
 }
+a{
+	float:left;
+	clear:both;
+}
 input{
 	float:left;
 	clear:both;
+}
+td:nth-child(n+4){
+	width:20px;
+}
+td:last-child{
+	margin-right:10px;
 }

@@ -1,0 +1,7 @@
+<% content_for :title do %>
+	Show User Info
+<% end %>
+<h1>Show User <%= @user.id %> Info</h1>
+
+<p><%= @user.first_name %> <%= @user.last_name %></p>
+<p><%= @user.email_address %></p>

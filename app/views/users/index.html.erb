@@ -14,6 +14,14 @@
 		<td><%= user.first_name %></td>		
 		<td><%= user.last_name %></td>
 		<td><%= user.email_address %></td>
+		<td><a class="btn" href="/users/<%= user.id %>/edit">Edit</a></td>
+		<td><a class="btn" href="/users/<%= user.id %>">Show</a></td>
+		<td>
+			<form action="/users/<%= user.id %>" method="post">
+				<input type="hidden" name="_method" value="delete">
+				<input class="btn btn-danger" type="submit" value="Delete">
+			</form>
+		</td>
 	</tr>
 <% end %>
 </table>
